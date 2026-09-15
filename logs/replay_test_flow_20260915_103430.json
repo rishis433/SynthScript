@@ -1,0 +1,22 @@
+{
+  "artifact_name": "test_flow",
+  "artifact_version": "1.0.0",
+  "start_time": 1789493670.9527464,
+  "end_time": 1789493670.9527464,
+  "duration_seconds": 0.0,
+  "status": "HARD_FAILURE",
+  "input_parameters": {
+    "username": "test"
+  },
+  "output_parameters": {},
+  "error": {
+    "type": "HARD_FAILURE",
+    "step_id": "UNKNOWN",
+    "expected": "Successful execution",
+    "observed": "Exception: Unexpected error",
+    "error_message": "Unexpected error",
+    "screenshot_path": null,
+    "accessibility_tree": null
+  },
+  "steps": []
+}

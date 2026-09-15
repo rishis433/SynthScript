@@ -1,0 +1,32 @@
+{
+  "artifact_name": "test_flow",
+  "artifact_version": "1.0.0",
+  "start_time": 1789495997.9919977,
+  "end_time": 1789495997.99447,
+  "duration_seconds": 0.0024721622467041016,
+  "status": "SUCCESS",
+  "input_parameters": {
+    "username": "test"
+  },
+  "output_parameters": {},
+  "error": null,
+  "steps": [
+    {
+      "step_id": "step_1",
+      "success": true,
+      "action_type": "CLICK",
+      "timestamp": 1789495997.99447,
+      "duration_ms": 0.0,
+      "error": null,
+      "extracted_data": null,
+      "state_before": {
+        "url": "http://localhost:5000",
+        "timestamp": 0.0
+      },
+      "state_after": {
+        "url": "http://localhost:5000",
+        "timestamp": 0.0
+      }
+    }
+  ]
+}

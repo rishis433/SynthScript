@@ -1,0 +1,48 @@
+{
+  "artifact_name": "test_flow",
+  "artifact_version": "1.0.0",
+  "start_time": 1789493680.776701,
+  "end_time": 1789493680.776701,
+  "duration_seconds": 0.0,
+  "status": "HARD_FAILURE",
+  "input_parameters": {
+    "username": "test"
+  },
+  "output_parameters": {},
+  "error": {
+    "type": "HARD_FAILURE",
+    "step_id": "step_1",
+    "expected": "Successful CLICK",
+    "observed": "Element not found",
+    "error_message": "Element not found",
+    "screenshot_path": null,
+    "accessibility_tree": {}
+  },
+  "steps": [
+    {
+      "step_id": "step_1",
+      "success": false,
+      "action_type": "CLICK",
+      "timestamp": 1789493680.776701,
+      "duration_ms": 0.0,
+      "error": {
+        "type": "HARD_FAILURE",
+        "step_id": "step_1",
+        "expected": "Successful CLICK",
+        "observed": "Element not found",
+        "error_message": "Element not found",
+        "screenshot_path": null,
+        "accessibility_tree": {}
+      },
+      "extracted_data": null,
+      "state_before": {
+        "url": "http://localhost:5000",
+        "timestamp": 0.0
+      },
+      "state_after": {
+        "url": "http://localhost:5000",
+        "timestamp": 0.0
+      }
+    }
+  ]
+}
