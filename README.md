@@ -117,7 +117,7 @@ Set up the repository by downloading the packages.
 
 3. **Install dependencies and browser binaries:**
    ```bash
-   pip install -r requirements.txt
+   pip install -e
    playwright install chromium
    ```
 
