@@ -1,0 +1,14 @@
+{
+  "artifact_name": "test_flow",
+  "artifact_version": "1.0",
+  "start_time": 1789571489.5102456,
+  "end_time": 1789571489.5102456,
+  "duration_seconds": 0.0,
+  "status": "SUCCESS",
+  "input_parameters": {
+    "username": "test"
+  },
+  "output_parameters": {},
+  "error": null,
+  "steps": []
+}
