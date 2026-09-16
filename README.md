@@ -1,5 +1,3 @@
-# SynthScript Architecture & Specification Report
-
 ## 1. Architecture
 
 ### Key Decisions & Trade-offs
