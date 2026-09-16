@@ -152,3 +152,4 @@ See [REPORT.md](REPORT.md) for the design write-up covering:
 5. Escalation & handoff
 6. Safety
 7. Cuts
+8. Multi-run stability
