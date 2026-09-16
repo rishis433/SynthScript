@@ -44,6 +44,14 @@ python -m pip install -e ".[dev]"
 python -m playwright install chromium
 ```
 
+If you want only install for replay:
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -e
+python -m playwright install chromium
+```
+
 ## Configuration
 
 Discovery uses the OpenAI API. Set the key in the environment before running
