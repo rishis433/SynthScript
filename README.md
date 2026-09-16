@@ -48,7 +48,7 @@ If you want only install for replay:
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install -e
+python -m pip install -e .
 python -m playwright install chromium
 ```
 
