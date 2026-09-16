@@ -145,6 +145,11 @@ Run the complete test suite:
 python -m pytest -q
 ```
 
+For verbose output
+```bash
+python -m pytest -v
+```
+
 The tests cover the schema, discovery components, locator and adapter behavior,
 deterministic replay, business/error outcomes, HITL handoff, and security/PII
 redaction.
