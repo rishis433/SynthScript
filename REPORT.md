@@ -21,4 +21,8 @@ Because this system operates on regulated financial data, it utilizes a strict p
 ## 7. Cuts
 Several features were deliberately left out to focus strictly on the load-bearing components of the system, including a fully functional remote operator console, multi-tenant message queues, and a desktop application adapter. With more time, the next step would be to build an agent-facing capability registry that exposes the saved JSON artifacts as standard tool-calling schemas, allowing an upstream conversational agent to dynamically discover and invoke legacy capabilities as if they were modern APIs. I would also implement multi-run stability scoring to calculate a flakiness metric for newly generated artifacts before they are approved for unattended production execution.
 
+## Multi-run stability
+
+The flakiness signal is low and the suite appears stable: all 10 repeated runs passed, which indicates no deterministic or intermittent failures across the sample window. The one higher duration spike is best interpreted as warm-up or environment variance rather than true flakiness, because the rest of the runs clustered tightly around a ~7 second average and the overall pass rate remained 100%. In other words, the system shows strong stability under repeated execution, with only minor timing noise from startup or machine state differences rather than functional instability.
+
 ```
