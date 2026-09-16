@@ -1,4 +1,3 @@
-```markdown
 # REPORT.md
 
 ## 1. Architecture
