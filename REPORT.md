@@ -25,8 +25,7 @@ Several features were deliberately left out to focus strictly on the load-bearin
 
 The flakiness signal is low and the suite appears stable: all 10 repeated runs passed, which indicates no deterministic or intermittent failures across the sample window. The one higher duration spike is best interpreted as warm-up or environment variance rather than true flakiness, because the rest of the runs clustered tightly around a ~7 second average and the overall pass rate remained 100%. In other words, the system shows strong stability under repeated execution, with only minor timing noise from startup or machine state differences rather than functional instability.
 
-```
 
 # SynthScript Technical Architecture & Execution Report
 
-![SynthScript System Architecture & Workflow](./synthscript-architecture.jpg)
+![SynthScript System Architecture & Workflow](./SynthScript.jpg)
